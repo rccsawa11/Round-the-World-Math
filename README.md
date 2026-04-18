@@ -1,7 +1,7 @@
 # Round-the-World-Math
 
 Program designed to teach kids arithmetic skills while providing them with fun facts from around the world. 
-Made for HACKMESA 2.0 in 4/17/2026 with team "Quantum Lions"
+Made for HACKMESA 2.0 on 4/17/2026 with team "Quantum Lions"
 
 **Background**
 
