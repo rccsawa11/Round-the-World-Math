@@ -46,7 +46,7 @@ int main() {
     srand(time(0));
 
     // Initial language prompt
-    cout << "Welcome to... \n++ MATH FOR FACTS ++" << endl;
+    cout << "Welcome to... \n++ ROUND THE WORLD MATH ++" << endl;
     cout << "Choose your language:\n";
     cout << "1.) English\n";
     cout << "2.) Espanol\n";
@@ -65,7 +65,7 @@ int main() {
         cout << "Escribe tu eleccion (1, 2, o 3): \n";
     } else {
         cout << "| ANSWER QUESTIONS  --> EARN POINTS! | \n";
-        cout << "Choose a power to boost your experience! :\n";
+        cout << "Choose a power to boost your experience in the game! :\n";
         cout << "1. Multiplier 2x\n";
         cout << "2. Skip 1 question\n";
         cout << "3. Earn 10 bonus points\n";
