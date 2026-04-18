@@ -61,6 +61,8 @@ string helloUser(string language) {
     string name;
     cout << "Enter your name: ";
     cin >> name;
+    // Add this line back in:
+    cout << "Welcome, " << name << "!\n";
     return name;
 }
 
