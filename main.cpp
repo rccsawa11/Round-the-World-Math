@@ -205,5 +205,5 @@ bool askQues(string language, string power, int &score, bool &usedPower) {
         if (power == "2" && !usedPower && !powerActive) cout << "(Skip power currently recharging...)\n";
     }
 
-    return false;
+}
 
