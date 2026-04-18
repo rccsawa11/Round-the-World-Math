@@ -21,7 +21,7 @@ string engFacts[numFacts] = {
     "Sheep eat grass around solar panels, preventing fires and fertilizing land.",
     "Prairie dogs build underground cities.",
     "Octopi can squeeze through openings the size of their eye.",
-    "Whales store carbon in their bodies, helping ecosystems."
+    "Whales store carbon dioxide in their bodies, helping ecosystems."
 };
 
 string spanFacts[numFacts] = {
@@ -34,7 +34,7 @@ string spanFacts[numFacts] = {
     "Las ovejas comen pasto alrededor de paneles solares, fertilizando naturalmente.",
     "Los perritos de las praderas construyen ciudades subterraneas.",
     "Los pulpos pueden pasar por aberturas del tamano de sus ojos.",
-    "Las ballenas almacenan carbono, ayudando a los ecosistemas."
+    "Las ballenas almacenan dioxido de carbono, ayudando a los ecosistemas."
 };
 
 // --- FUNCTION PROTOTYPES ---
