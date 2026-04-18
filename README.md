@@ -1,6 +1,6 @@
 # Round-the-World-Math
 
-Program designed to teach kids arithmetic skills while educating them on languages and countries around the world. 
+Program designed to teach kids arithmetic skills while providing them with fun facts from around the world. 
 Made for HACKMESA 2.0 in 4/17/2026 with team "Quantum Lions"
 
 **Background**
