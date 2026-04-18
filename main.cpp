@@ -4,7 +4,38 @@
 #include <ctime>
 #include <fstream>
 using namespace std;
-const int numQues = 7;
+const int numQues = 10;
+const int EngFacts = 10; // Number of facts in your placeholder
+
+// Placeholder array for facts
+string facts[EngFacts] = {
+    "In countries like Bangladesh, schools on boats bring education to kids during floods.",
+    "Scientists can turn carbon dioxide into protein powder using microbes and electricity.",
+    "Some planes use cleaner fuel made from leftover frying oil.",
+    "Satellites detect penguin colonies by spotting large guano (poop) stains on the ice.",
+    "NASA’s Dragonfly mission will explore a world with lakes made of methane (not water).",
+    "Beavers help prevent floods.",
+    "Instead of machines, sheep eat grass around solar panels, preventing fires and naturally fertilizing the land.",
+    "Prairie dogs build underground cities.",
+    "Octopi can squeeze through openings the size of their eye.",
+    "Whales store carbon in their bodies and help ecosystems that absorb CO_2.",
+};
+const int SpanFacts = 10; // Number of facts in your placeholder
+
+// Placeholder array for facts
+string facts[SpanFacts] = {
+    "En países como Bangladesh, las escuelas en barcos llevan educación a los niños durante las inundaciones.",
+    "Los científicos pueden convertir el dióxido de carbono en proteína en polvo usando microbios y electricidad.",
+    "Algunos aviones usan combustible más limpio hecho de aceite de cocina usado.",
+    "Los satélites detectan colonias de pingüinos al detectar grandes manchas de guano (excremento) en el hielo.",
+    "La misión Dragonfly de la NASA explorará un mundo con lagos hechos de metano (no de agua).",
+    "Los castores ayudan a prevenir inundaciones.",
+    "En lugar de máquinas, las ovejas comen pasto alrededor de los paneles solares, previniendo incendios y fertilizando la tierra naturalmente.",
+    "Los perritos de las praderas construyen ciudades subterráneas.",
+    "Los pulpos pueden pasar por aberturas del tamaño de sus ojos.",
+    "Las ballenas almacenan carbono en sus cuerpos y ayudan a los ecosistemas que absorben CO_2.",
+};
+const int numQues = 10;
 string selectLanguage();
 string helloUser(string language);
 bool askQues(string language, string power, int &score);
