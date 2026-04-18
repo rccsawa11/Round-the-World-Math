@@ -76,7 +76,11 @@ bool askQues(string language, string power, int &score, bool &usedPower) {
         if (operation == 0) { cout << "What is " << a << " + " << b << "? "; correct = a + b; }
         else if (operation == 1) { cout << "What is " << a << " - " << b << "? "; correct = a - b; }
         else if (operation == 2) { cout << "What is " << a << " x " << b << "? "; correct = a * b; }
-        else { if (b == 0) b = 1; cout << "What is " << a << " / " << b << "? "; correct = a / b; }
+        else {
+            if (b == 0) b = 1;
+            cout << "What is " << a << " / " << b << "? (ignore decimals) ";
+            correct = a / b;
+        }
     } else {
         if (operation == 0) { cout << "Cuanto es " << a << " + " << b << "? "; correct = a + b; }
         else if (operation == 1) { cout << "Cuanto es " << a << " - " << b << "? "; correct = a - b; }
